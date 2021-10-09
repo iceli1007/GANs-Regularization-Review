@@ -19,7 +19,7 @@ A table of Regularization and Normalization in Generative adversarial Networks (
 
 ## List of Regularization and Normalization in GANs
 
-<font color='red'> The most important studies will be highlighted in red. </font >
+- The most important studies will be highlighted in red.
 
 #### Perspective of "Real & Fake" in GANs
 | Year        | Title           | Type        | Venue    | Link        |  Code      |
