@@ -20,8 +20,9 @@ A table of Regularization and Normalization in Generative adversarial Networks (
 ## List of Regularization and Normalization in GANs
 
 #### Perspective of "Real & Fake" in GANs
+
 | Year        | Title           | Type        | Venue    | Link        |  Code      |
-|-------|--------|--------|--------|-----------|---------------|---------|
+|-------|--------|--------|--------|-----------|---------------|
 |2021|**Are High-Frequency Components Beneficial for Training of Generative Adversarial Networks**| Data Preprocessing | arXiv| [Link](https://arxiv.org/abs/2103.11093v1)| [Code](https://github.com/iceli1007/HFC-and-HFF)|
 |2020|**Training generative adversarial networks with limited data**| Data Augmentation | NeurIPS| [Link](https://arxiv.org/pdf/2006.06676)| [Code](https://github.com/NVlabs/stylegan2-ada)|
 |2020|**On Data Augmentation for GAN Training**| Data Augmentation | TIP| [Link](https://arxiv.org/pdf/2006.05338)| [Code](https://github.com/sutd-visual-computing-group/dag-gans)|
@@ -69,7 +70,7 @@ A table of Regularization and Normalization in Generative adversarial Networks (
 
 #### Perspective of "Training Dynamics" in GANs
 | Year        | Title           | Type       | Venue    | Link        |  Code      |
-|-------|--------|--------|--------|-----------|---------------|---------|
+|-------|--------|--------|--------|-----------|---------------|
 |2019| **Towards a Better Understanding and Regularization of GAN Training Dynamics**| Jacobian Regularization|UAI| [Link](https://arxiv.org/pdf/1806.09235.pdf)|
 |2018| **Which Training Methods for GANs do actually Converge?**| Gradient Penalty |ICML| [Link](http://proceedings.mlr.press/v80/mescheder18a)| [Code](https://github.com/LMescheder/GAN_stability)|
 |2017| **The numerics of gans**| Jacobian regularization|NeurIPS| [Link](https://arxiv.org/pdf/1705.10461.pdf)| [Code](https://github.com/LMescheder/TheNumericsOfGANs)|
