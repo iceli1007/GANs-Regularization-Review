@@ -46,7 +46,7 @@ A table of Regularization and Normalization in Generative adversarial Networks (
 |2021| InfoMax-GAN: Improved Adversarial Image Generation via Information Maximization and Contrastive Learning| Contrastive Self-Supervised | WACV| [Link](https://arxiv.org/pdf/2007.04589.pdf)| [Code](https://github.com/kwotsin/mimicry)|
 |2021| **<font color='red'>Data-Efficient Instance Generation from Instance Discrimination</font>**| Contrastive Self-Supervised | NeurIPS| [Link](https://arxiv.org/pdf/2106.04566.pdf)| [Code](https://github.com/genforce/insgen)|
 
-
+### Perspective of "Fitting distribution" in GANs
 
 | Year        | Title           | Type   |Lipschitz continuity     | Venue    | Link        |  Code      |
 |-------|--------|--------|--------|-----------|---------------|---------|
