@@ -18,9 +18,11 @@ If you find this survey is useful in your research, please consider citing:
 A table of Regularization and Normalization in Generative adversarial Networks (GANs). This page will be ****periodically**** updated to include recent works. Please contact us if your work is not in the list. Let us know if your recent work is not in the list, we will be happy to include it!
 
 ## List of Regularization and Normalization in GANs
+
 ```diff
 -The most important studies will be highlighted in red.
 ```
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
 #### Perspective of "Real & Fake" in GANs
 | Year        | Title           | Type        | Venue    | Link        |  Code      |
 |-------|--------|--------|--------|-----------|---------------|
