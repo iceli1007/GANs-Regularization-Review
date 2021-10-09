@@ -24,7 +24,7 @@ A table of Regularization and Normalization in Generative adversarial Networks (
 ### Perspective of "Real & Fake" in GANs
 | Year        | Title           | Type        | Venue    | Link        |  Code      |
 |-------|--------|--------|--------|-----------|---------------|
-|2021|Are High-Frequency Components Beneficial for Training of Generative Adversarial Networks| Data Preprocessing | arXiv| [Link](https://arxiv.org/abs/2103.11093v1)| [Code](https://github.com/iceli1007/HFC-and-HFF)|
+|2021|Are High-Frequency Components Beneficial for Training of Generative Adversarial Networks| Data Preprocessing | ArXiv| [Link](https://arxiv.org/abs/2103.11093v1)| [Code](https://github.com/iceli1007/HFC-and-HFF)|
 |2020|**Training generative adversarial networks with limited data**| Data Augmentation | NeurIPS| [Link](https://arxiv.org/pdf/2006.06676)| [Code](https://github.com/NVlabs/stylegan2-ada)|
 |2020|On Data Augmentation for GAN Training| Data Augmentation | TIP| [Link](https://arxiv.org/pdf/2006.05338)| [Code](https://github.com/sutd-visual-computing-group/dag-gans)|
 |2020|Differentiable augmentation for data-efficient gan training| Data Augmentation | NeurIPS| [Link](https://arxiv.org/pdf/2006.10738)| [Code](https://github.com/mit-han-lab/data-efficient-gans)|
@@ -57,13 +57,13 @@ A table of Regularization and Normalization in Generative adversarial Networks (
 |2017| On Convergence and Stability of GANs| Gradient Penalty | 1|arXiv| [Link](https://arxiv.org/pdf/1705.07215.pdf)| [Code](https://github.com/kodalinaveen3/DRAGAN)|
 |2021| Towards Generalized Implementation of Wasserstein Distance in GANs| Gradient Penalty | k (k<=1)|AAAI| [Link](https://arxiv.org/abs/2012.03420)| [Code](https://github.com/MinkaiXu/SobolevWassersteinGAN)|
 |2018| On the regularization of Wasserstein GANs| Gradient Penalty | k (k<=1)|ICLR| [Link](https://arxiv.org/pdf/1709.08894.pdf)| [Code](https://github.com/lukovnikov/improved_wgan_training)|
-|2020| Direct Adversarial Training: An Adaptive Method to Penalize Lipschitz Continuity of the Discriminator| Gradient Penalty | 0|arXiv| [Link](https://arxiv.org/pdf/2008.09041.pdf)| [Code](https://github.com/iceli1007/DAT-GAN)|
+|2020| Direct Adversarial Training: An Adaptive Method to Penalize Lipschitz Continuity of the Discriminator| Gradient Penalty | 0|ArXiv| [Link](https://arxiv.org/pdf/2008.09041.pdf)| [Code](https://github.com/iceli1007/DAT-GAN)|
 |2019| Improving Generalization and Stability of Generative Adversarial Networks| Gradient Penalty | 0|ICLR| [Link](https://arxiv.org/pdf/1902.03984.pdf)| [Code](https://github.com/htt210/GeneralizationAndStabilityInGANs)
 |2019| Lipschitz Generative Adversarial Nets| Gradient Penalty | 0|ICML| [Link](https://arxiv.org/pdf/1902.05687.pdf)| [Code](https://github.com/ZhimingZhou/AdaShift-LGANs-MaxGP-refactored)
 |2018| **<font color='red'>Which Training Methods for GANs do actually Converge?</font>**| Gradient Penalty | 0|ICML| [Link](http://proceedings.mlr.press/v80/mescheder18a)| [Code](https://github.com/LMescheder/GAN_stability)|
 |2018| Wasserstein Divergence for GANs| Gradient Penalty | 0|ECCV| [Link](https://arxiv.org/pdf/1712.01026.pdf)| [Code](https://github.com/Lornatang/WassersteinGAN_DIV-PyTorch)|
 |2018| A Wasserstein GAN model with the total variational regularization| Gradient Penalty | 0|arXiv| [Link](https://arxiv.org/pdf/1812.00810.pdf)| 
-|2018| GAN-QP: A Novel GAN Framework without Gradient Vanishing and Lipschitz Constraint| Gradient Penalty | 0|arXiv| [Link](https://arxiv.org/pdf/1811.07296.pdf)| [Code](https://github.com/bojone/gan-qp)
+|2018| GAN-QP: A Novel GAN Framework without Gradient Vanishing and Lipschitz Constraint| Gradient Penalty | 0|ArXiv| [Link](https://arxiv.org/pdf/1811.07296.pdf)| [Code](https://github.com/bojone/gan-qp)
 |2020| Spectral bounding: Strictly satisfying the 1-Lipschitz property for generative adversarial networks| Weight Normalization | k (k<=1)|PR| [Link](https://www.sciencedirect.com/science/article/pii/S0031320319304790)| 
 |2019| Large scale gan training for high fidelity natural image synthesis| Weight Normalization | |ICLR| [Link](https://arxiv.org/abs/1809.11096)| [Code](https://tfhub.dev/s?q=biggan)
 |2019| Spectral Regularization for Combating Mode Collapse in GANs| Weight Normalization | 1|ICCV| [Link](https://arxiv.org/pdf/1908.10999.pdf)| [Code](https://github.com/max-liu-112/SRGANs)
