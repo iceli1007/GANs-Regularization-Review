@@ -48,27 +48,26 @@ A table of Regularization and Normalization in Generative adversarial Networks (
 
 
 
-### Perspective of "Fitting distribution" in GANs
 | Year        | Title           | Type   |Lipschitz continuity     | Venue    | Link        |  Code      |
 |-------|--------|--------|--------|-----------|---------------|---------|
-|2021| Towards Generalized Implementation of Wasserstein Distance in GANs| Gradient Penalty | $\|D_{\theta}\|_{Lip}\leq 1$|AAAI| [Link](https://arxiv.org/abs/2012.03420)| [Code](https://github.com/MinkaiXu/SobolevWassersteinGAN)|
-|2020| ADVERSARIAL LIPSCHITZ REGULARIZATION| Gradient Penalty | $\|D_{\theta}\|_{ALP-Lip}\rightarrow1$|ICLR| [Link](https://openreview.net/forum?id=Bke_DertPB)| [Code](https://github.com/dterjek/adversarial_lipschitz_regularization)|
-|2019| Towards Efficient and Unbiased Implementation of Lipschitz Continuity in GANs| Gradient Penalty | $\|D_{\theta}\|_{Lip}\rightarrow1$|IJCAI| [Link](https://arxiv.org/abs/1904.01184)| [Code](https://github.com/ZhimingZhou/AdaShift-LGANs-MaxGP-refactored)|
-|2018| Banach Wasserstein GAN| Gradient Penalty | $\|D_{\theta}\|_{Lip}\rightarrow1$|NeurIPS| [Link](https://arxiv.org/abs/1806.06621)| [Code](https://github.com/adler-j/bwgan)|
-|2017| **<font color='red'>Improved Training of Wasserstein GANs</font>**| Gradient Penalty | $\|D_{\theta}\|_{Lip}\rightarrow1$|NeurIPS| [Link](https://arxiv.org/pdf/1704.00028.pdf)| [Code](https://github.com/igul222/improved_wgan_training)|
-|2017| On Convergence and Stability of GANs| Gradient Penalty | $\|D_{\theta}\|_{Lip}\rightarrow1$|arXiv| [Link](https://arxiv.org/pdf/1705.07215.pdf)| [Code](https://github.com/kodalinaveen3/DRAGAN)|
-|2018| On the regularization of Wasserstein GANs| Gradient Penalty | $\|D_{\theta}\|_{Lip}\leq 1$|ICLR| [Link](https://arxiv.org/pdf/1709.08894.pdf)| [Code](https://github.com/lukovnikov/improved_wgan_training)|
-|2020| Direct Adversarial Training: An Adaptive Method to Penalize Lipschitz Continuity of the Discriminator| Gradient Penalty | $\|D_{\theta}\|_{Lip} \rightarrow0$|arXiv| [Link](https://arxiv.org/pdf/2008.09041.pdf)| [Code](https://github.com/iceli1007/DAT-GAN)|
-|2019| Improving Generalization and Stability of Generative Adversarial Networks| Gradient Penalty | $\|D_{\theta}\|_{Lip} \rightarrow0$|ICLR| [Link](https://arxiv.org/pdf/1902.03984.pdf)| [Code](https://github.com/htt210/GeneralizationAndStabilityInGANs)
-|2019| Lipschitz Generative Adversarial Nets| Gradient Penalty | $\|D_{\theta}\|_{Lip} \rightarrow0$|ICML| [Link](https://arxiv.org/pdf/1902.05687.pdf)| [Code](https://github.com/ZhimingZhou/AdaShift-LGANs-MaxGP-refactored)
-|2018| **<font color='red'>Which Training Methods for GANs do actually Converge?</font>**| Gradient Penalty | $\|D_{\theta}\|_{Lip} \rightarrow0$|ICML| [Link](http://proceedings.mlr.press/v80/mescheder18a)| [Code](https://github.com/LMescheder/GAN_stability)|
-|2018| Wasserstein Divergence for GANs| Gradient Penalty | $\|D_{\theta}\|_{Lip} \rightarrow0$|ECCV| [Link](https://arxiv.org/pdf/1712.01026.pdf)| [Code](https://github.com/Lornatang/WassersteinGAN_DIV-PyTorch)|
-|2018| A Wasserstein GAN model with the total variational regularization| Gradient Penalty | $\|D_{\theta}\|_{Lip} \rightarrow0$|arXiv| [Link](https://arxiv.org/pdf/1812.00810.pdf)| 
-|2018| GAN-QP: A Novel GAN Framework without Gradient Vanishing and Lipschitz Constraint| Gradient Penalty | $\|D_{\theta}\|_{Lip} \rightarrow0$|arXiv| [Link](https://arxiv.org/pdf/1811.07296.pdf)| [Code](https://github.com/bojone/gan-qp)
-|2020| Spectral bounding: Strictly satisfying the 1-Lipschitz property for generative adversarial networks| Weight Normalization | $\|D_{\theta}\|_{Lip} \leq 1$|PR| [Link](https://www.sciencedirect.com/science/article/pii/S0031320319304790)| 
+|2020| ADVERSARIAL LIPSCHITZ REGULARIZATION| Gradient Penalty | 1|ICLR| [Link](https://openreview.net/forum?id=Bke_DertPB)| [Code](https://github.com/dterjek/adversarial_lipschitz_regularization)|
+|2019| Towards Efficient and Unbiased Implementation of Lipschitz Continuity in GANs| Gradient Penalty | 1|IJCAI| [Link](https://arxiv.org/abs/1904.01184)| [Code](https://github.com/ZhimingZhou/AdaShift-LGANs-MaxGP-refactored)|
+|2018| Banach Wasserstein GAN| Gradient Penalty | 1|NeurIPS| [Link](https://arxiv.org/abs/1806.06621)| [Code](https://github.com/adler-j/bwgan)|
+|2017| **<font color='red'>Improved Training of Wasserstein GANs</font>**| Gradient Penalty | 1|NeurIPS| [Link](https://arxiv.org/pdf/1704.00028.pdf)| [Code](https://github.com/igul222/improved_wgan_training)|
+|2017| On Convergence and Stability of GANs| Gradient Penalty | 1|arXiv| [Link](https://arxiv.org/pdf/1705.07215.pdf)| [Code](https://github.com/kodalinaveen3/DRAGAN)|
+|2021| Towards Generalized Implementation of Wasserstein Distance in GANs| Gradient Penalty | k (k<=1)|AAAI| [Link](https://arxiv.org/abs/2012.03420)| [Code](https://github.com/MinkaiXu/SobolevWassersteinGAN)|
+|2018| On the regularization of Wasserstein GANs| Gradient Penalty | k (k<=1)|ICLR| [Link](https://arxiv.org/pdf/1709.08894.pdf)| [Code](https://github.com/lukovnikov/improved_wgan_training)|
+|2020| Direct Adversarial Training: An Adaptive Method to Penalize Lipschitz Continuity of the Discriminator| Gradient Penalty | 0|arXiv| [Link](https://arxiv.org/pdf/2008.09041.pdf)| [Code](https://github.com/iceli1007/DAT-GAN)|
+|2019| Improving Generalization and Stability of Generative Adversarial Networks| Gradient Penalty | 0|ICLR| [Link](https://arxiv.org/pdf/1902.03984.pdf)| [Code](https://github.com/htt210/GeneralizationAndStabilityInGANs)
+|2019| Lipschitz Generative Adversarial Nets| Gradient Penalty | 0|ICML| [Link](https://arxiv.org/pdf/1902.05687.pdf)| [Code](https://github.com/ZhimingZhou/AdaShift-LGANs-MaxGP-refactored)
+|2018| **<font color='red'>Which Training Methods for GANs do actually Converge?</font>**| Gradient Penalty | 0|ICML| [Link](http://proceedings.mlr.press/v80/mescheder18a)| [Code](https://github.com/LMescheder/GAN_stability)|
+|2018| Wasserstein Divergence for GANs| Gradient Penalty | 0|ECCV| [Link](https://arxiv.org/pdf/1712.01026.pdf)| [Code](https://github.com/Lornatang/WassersteinGAN_DIV-PyTorch)|
+|2018| A Wasserstein GAN model with the total variational regularization| Gradient Penalty | 0|arXiv| [Link](https://arxiv.org/pdf/1812.00810.pdf)| 
+|2018| GAN-QP: A Novel GAN Framework without Gradient Vanishing and Lipschitz Constraint| Gradient Penalty | 0|arXiv| [Link](https://arxiv.org/pdf/1811.07296.pdf)| [Code](https://github.com/bojone/gan-qp)
+|2020| Spectral bounding: Strictly satisfying the 1-Lipschitz property for generative adversarial networks| Weight Normalization | k (k<=1)|PR| [Link](https://www.sciencedirect.com/science/article/pii/S0031320319304790)| 
 |2019| Large scale gan training for high fidelity natural image synthesis| Weight Normalization | |ICLR| [Link](https://arxiv.org/abs/1809.11096)| [Code](https://tfhub.dev/s?q=biggan)
-|2019| Spectral Regularization for Combating Mode Collapse in GANs| Weight Normalization | $\|D_{\theta}\|_{Lip} \rightarrow 1$|ICCV| [Link](https://arxiv.org/pdf/1908.10999.pdf)| [Code](https://github.com/max-liu-112/SRGANs)
-|2018| **<font color='red'>Spectral normalization for generative adversarial networks</font>**| Weight Normalization | $\|D_{\theta}\|_{Lip} \rightarrow 1$|ICLR| [Link](https://arxiv.org/abs/1802.05957)| [Code](https://github.com/pfnet-research/sngan_projection)
+|2019| Spectral Regularization for Combating Mode Collapse in GANs| Weight Normalization | 1|ICCV| [Link](https://arxiv.org/pdf/1908.10999.pdf)| [Code](https://github.com/max-liu-112/SRGANs)
+|2018| **<font color='red'>Spectral normalization for generative adversarial networks</font>**| Weight Normalization | 1|ICLR| [Link](https://arxiv.org/abs/1802.05957)| [Code](https://github.com/pfnet-research/sngan_projection)
 
 ### Perspective of "Training Dynamics" in GANs
 | Year        | Title           | Type       | Venue    | Link        |  Code      |
