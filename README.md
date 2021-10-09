@@ -21,7 +21,7 @@ A table of Regularization and Normalization in Generative adversarial Networks (
 
 **The most important studies will be highlighted.**
 
-#### Perspective of "Real & Fake" in GANs
+### Perspective of "Real & Fake" in GANs
 | Year        | Title           | Type        | Venue    | Link        |  Code      |
 |-------|--------|--------|--------|-----------|---------------|
 |2021|Are High-Frequency Components Beneficial for Training of Generative Adversarial Networks| Data Preprocessing | arXiv| [Link](https://arxiv.org/abs/2103.11093v1)| [Code](https://github.com/iceli1007/HFC-and-HFF)|
@@ -48,7 +48,7 @@ A table of Regularization and Normalization in Generative adversarial Networks (
 
 
 
-#### Perspective of "Fitting distribution" in GANs
+### Perspective of "Fitting distribution" in GANs
 | Year        | Title           | Type   |Lipschitz continuity     | Venue    | Link        |  Code      |
 |-------|--------|--------|--------|-----------|---------------|---------|
 |2021| Towards Generalized Implementation of Wasserstein Distance in GANs| Gradient Penalty | $\|D_{\theta}\|_{Lip}\leq 1$|AAAI| [Link](https://arxiv.org/abs/2012.03420)| [Code](https://github.com/MinkaiXu/SobolevWassersteinGAN)|
@@ -70,14 +70,14 @@ A table of Regularization and Normalization in Generative adversarial Networks (
 |2019| Spectral Regularization for Combating Mode Collapse in GANs| Weight Normalization | $\|D_{\theta}\|_{Lip} \rightarrow 1$|ICCV| [Link](https://arxiv.org/pdf/1908.10999.pdf)| [Code](https://github.com/max-liu-112/SRGANs)
 |2018| **<font color='red'>Spectral normalization for generative adversarial networks</font>**| Weight Normalization | $\|D_{\theta}\|_{Lip} \rightarrow 1$|ICLR| [Link](https://arxiv.org/abs/1802.05957)| [Code](https://github.com/pfnet-research/sngan_projection)
 
-#### Perspective of "Training Dynamics" in GANs
+### Perspective of "Training Dynamics" in GANs
 | Year        | Title           | Type       | Venue    | Link        |  Code      |
 |-------|--------|--------|--------|-----------|---------------|
 |2019| Towards a Better Understanding and Regularization of GAN Training Dynamics| Jacobian Regularization|UAI| [Link](https://arxiv.org/pdf/1806.09235.pdf)|[Code](https://github.com/weilinie/JARE)
 |2018| **<font color='red'>Which Training Methods for GANs do actually Converge?</font>**| Gradient Penalty |ICML| [Link](http://proceedings.mlr.press/v80/mescheder18a)| [Code](https://github.com/LMescheder/GAN_stability)|
 |2017| The numerics of gans| Jacobian regularization|NeurIPS| [Link](https://arxiv.org/pdf/1705.10461.pdf)| [Code](https://github.com/LMescheder/TheNumericsOfGANs)|
 |2017| Gradient descent GAN optimization is locally stable| Jacobian regularization|NeurIPS| [Link](https://arxiv.org/pdf/1706.04156.pdf)| [Code](https://github.com/locuslab/gradient_regularized_gan)|
-#### Others
+### Others
 | Year        | Title           | Type       | Venue    | Link        |  Code      |
 |-------|--------|--------|--------|-----------|---------------|
 |2017| On the effects of batch and weight normalization in generative adversarial networks| Unconditional Layer Normalization|ArXiv| [Link](https://arxiv.org/pdf/1704.03971.pdf)|[Code](https://github.com/stormraiser/GAN-weight-norm)
