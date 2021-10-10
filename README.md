@@ -30,7 +30,7 @@ A table of Regularization and Normalization in Generative adversarial Networks (
 |2020|Differentiable augmentation for data-efficient gan training| Data Augmentation | NeurIPS| [Link](https://arxiv.org/pdf/2006.10738)| [Code](https://github.com/mit-han-lab/data-efficient-gans)|
 |2020|Image Augmentations for GAN Training| Data Augmentation | NeurIPS| [Link](https://arxiv.org/pdf/2006.02595)| [Code](https://github.com/eldadoh/Image-Augmentations-for-GAN-Training)|
 |2021| Manifold-preserved GANs| Image Consistency Regularization  | ArXiv| [Link](https://arxiv.org/abs/2109.08955)
-|2021| Manifold Matching via Deep Metric Learning for Generative Modeling| Image Consistency Regularization  | ICCV| [Link](https://arxiv.org/pdf/2106.10777.pdf)|[Code](https : //github.com/dzld00/pytorch-manifold-matching)
+|2021| Manifold Matching via Deep Metric Learning for Generative Modeling| Image Consistency Regularization  | ICCV| [Link](https://arxiv.org/pdf/2106.10777.pdf)| [Code](https://github.com/dzld00/pytorch-manifold-matching)
 |2021| SSD-GAN: Measuring the Realness in the Spatial and Spectral Domains| Image Consistency Regularization  | AAAI| [Link](https://arxiv.org/pdf/2012.05535.pdf)| [Code](https://github.com/cyq373/SSD-GAN)|
 |2020| Watch your Up-Convolution: CNN Based Generative Deep Neural Networks are Failing to Reproduce Spectral Distributions| Image Consistency Regularization  | CVPR| [Link](https://arxiv.org/pdf/2003.01826.pdf)| [Code](https://github.com/cc-hpc-itwm/UpConv)|
 |2018| MMGAN: Manifold-Matching Generative Adversarial Network| Image Consistency Regularization  | ICPR| [Link](https://arxiv.org/pdf/1707.08273.pdf)|
