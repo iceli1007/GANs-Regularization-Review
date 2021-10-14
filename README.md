@@ -66,7 +66,7 @@ A table of Regularization and Normalization in Generative adversarial Networks (
 |2018| Wasserstein Divergence for GANs| Gradient Penalty | 0|ECCV| [Link](https://arxiv.org/pdf/1712.01026.pdf)| [Code](https://github.com/Lornatang/WassersteinGAN_DIV-PyTorch)|
 |2018| A Wasserstein GAN model with the total variational regularization| Gradient Penalty | 0|ArXiv| [Link](https://arxiv.org/pdf/1812.00810.pdf)| 
 |2018| GAN-QP: A Novel GAN Framework without Gradient Vanishing and Lipschitz Constraint| Gradient Penalty | 0|ArXiv| [Link](https://arxiv.org/pdf/1811.07296.pdf)| [Code](https://github.com/bojone/gan-qp)
-|2021| SGradient Normalization for Generative Adversarial Networks| Gradient Normalization | 1|ICCV| [Link](https://arxiv.org/pdf/2109.02235.pdf)|[Code](https://github.com/basiclab/GNGAN-PyTorch)
+|2021| Gradient Normalization for Generative Adversarial Networks| Gradient Normalization | 1|ICCV| [Link](https://arxiv.org/pdf/2109.02235.pdf)|[Code](https://github.com/basiclab/GNGAN-PyTorch)
 |2020| Spectral bounding: Strictly satisfying the 1-Lipschitz property for generative adversarial networks| Weight Normalization | k (k<=1)|PR| [Link](https://www.sciencedirect.com/science/article/pii/S0031320319304790)| 
 |2019| Large scale gan training for high fidelity natural image synthesis| Weight Normalization | |ICLR| [Link](https://arxiv.org/abs/1809.11096)| [Code](https://tfhub.dev/s?q=biggan)
 |2019| Spectral Regularization for Combating Mode Collapse in GANs| Weight Normalization | 1|ICCV| [Link](https://arxiv.org/pdf/1908.10999.pdf)| [Code](https://github.com/max-liu-112/SRGANs)
